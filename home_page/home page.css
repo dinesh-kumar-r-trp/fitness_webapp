@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: coral;
+    background-position: fixed;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+.workoutstyle{
+    position: fixed;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: aquamarine;
+    align-items: center;
+    overflow-x: scroll;
+    
+}
+.workoutstyle li{
+    padding: 8px 25px;
+}
+.workoutstyle a{
+    text-decoration-color: none;
+    color: aquamarine;
+    text-transform: uppercase;
+}
+.certification{
+    height: 30px;
+    width: 20px;
+
+}
+.workoutstyle :hover{
+    background-color: brown;
+}
+.workoutplan{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    list-style: none;
+
+}
