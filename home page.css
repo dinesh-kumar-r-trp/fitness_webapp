@@ -18,7 +18,7 @@ body{
     display: flex;
     flex-direction: row;
     list-style: none;
-    background-color: bisque;
+    background-color: aquamarine;
     align-items: center;
     overflow-x: scroll;
     
